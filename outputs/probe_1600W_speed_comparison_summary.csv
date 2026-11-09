@@ -1,0 +1,3 @@
+speed_mm_s,power_W,record_count,first_time_s,heating_end_s,nominal_input_J,source_pass_time_s,peak_temperature_C,peak_rise_K,first_highest_sample_time_s,last_highest_sample_time_s,highest_sample_count,first_sample_peak_lag_s,temperature_40s_C,raw_sha256
+2,1600,1602,0.01,40.0,64000.0,20.0,829.13,809.13,21.853,21.878,2,1.8530000000000015,539.02,3db05963a865bd02bc0ee3370844e058255b5cba9e92ebf87ab7e1902dab6117
+4,1600,1604,0.01,20.0,32000.0,10.0,506.78,486.78,11.103,11.103,1,1.1029999999999998,271.56,1426daa71021d54bfc151efdab318a2a9dfeb8f1c53fea03ae24ff90893a6383

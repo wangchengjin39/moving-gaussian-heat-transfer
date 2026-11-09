@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "speed_mm_s": 2,
+      "power_W": 1600,
+      "record_count": 1602,
+      "first_time_s": 0.01,
+      "heating_end_s": 40.0,
+      "nominal_input_J": 64000.0,
+      "source_pass_time_s": 20.0,
+      "peak_temperature_C": 829.13,
+      "peak_rise_K": 809.13,
+      "first_highest_sample_time_s": 21.853,
+      "last_highest_sample_time_s": 21.878,
+      "highest_sample_count": 2,
+      "first_sample_peak_lag_s": 1.8530000000000015,
+      "temperature_40s_C": 539.02,
+      "raw_sha256": "3db05963a865bd02bc0ee3370844e058255b5cba9e92ebf87ab7e1902dab6117"
+    },
+    {
+      "speed_mm_s": 4,
+      "power_W": 1600,
+      "record_count": 1604,
+      "first_time_s": 0.01,
+      "heating_end_s": 20.0,
+      "nominal_input_J": 32000.0,
+      "source_pass_time_s": 10.0,
+      "peak_temperature_C": 506.78,
+      "peak_rise_K": 486.78,
+      "first_highest_sample_time_s": 11.103,
+      "last_highest_sample_time_s": 11.103,
+      "highest_sample_count": 1,
+      "first_sample_peak_lag_s": 1.1029999999999998,
+      "temperature_40s_C": 271.56,
+      "raw_sha256": "1426daa71021d54bfc151efdab318a2a9dfeb8f1c53fea03ae24ff90893a6383"
+    }
+  ],
+  "same_mesh_and_constant_materials_checked": true,
+  "same_probe_m": [
+    0.05,
+    0.01,
+    0.028
+  ],
+  "fast_minus_slow_peak_K": -322.35,
+  "fast_peak_rise_reduction_percent": 39.839086426161444,
+  "fast_minus_slow_first_peak_sample_time_s": -10.750000000000002,
+  "fast_minus_slow_final_temperature_K": -267.46,
+  "scope": "Two idealized numerical cases, not experimental validation or proof of full-field convergence.",
+  "peak_time_caution": "Highest sampled times refer to rounded exports, not exact continuous peak times or guaranteed brackets.",
+  "energy_caution": "Nominal P*time; continuous finite-plate Gaussian tails cause a small input truncation. Body energy is checked separately by validate_cooling_energy.py.",
+  "authorship": "Comparison script by assistant; not an independent student programming assignment."
+}

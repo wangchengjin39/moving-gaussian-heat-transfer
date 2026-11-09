@@ -1,0 +1,70 @@
+{
+  "authorship": "Assistant; repetitive integration, not independent user programming work.",
+  "input_sha256": "b9a70dfd962deab5f2f98370141c03e6cf52cee84adee0d53cf08265d3ddd8e8",
+  "global_history_sha256": "70f933408faad8293a448b5ab18bd444a662d3a31a40cd7eff8903eb575254e7",
+  "nodes": 92529,
+  "elements": 20480,
+  "element": "SOLID279 affine twenty-node brick",
+  "volume_m3": 4.000000000000001e-05,
+  "mass_kg": 0.31200000000000006,
+  "heat_capacity_J_K": 156.00000000000003,
+  "method": "Integrate actual twenty-node shape functions over each verified affine element; sum volumes.",
+  "nominal_energy_J": 32000.0,
+  "nominal_mean_temperature_C": 225.12820512820508,
+  "continuous_finite_plate_input_reference_J": 31998.043461248,
+  "continuous_reference_mean_temperature_C": 225.11566321312816,
+  "reference_quadrature_error_estimate_J": 2.7493357881340844e-08,
+  "cases": [
+    {
+      "time_s": 20.0,
+      "temperature_export": "temperature_1600W_4mms_20s_h125.txt",
+      "temperature_sha256": "e1fe3817147a7dc2edb27771299587c53203279ed1b13ce81ba61b82e2d67456",
+      "nodes": 92529,
+      "temperature_min_C": 20.083,
+      "temperature_max_C": 2520.2,
+      "time_check": "Export extrema match archived global result extrema at requested time; header omits time.",
+      "archived_time_min_C": 20.08331,
+      "archived_time_max_C": 2520.193,
+      "unweighted_node_mean_C": 222.84833140961211,
+      "volume_mean_temperature_C": 225.1133493815103,
+      "stored_heat_J": 31997.682503515614,
+      "export_rounding_energy_bound_J": 5.719394750976559,
+      "export_rounding_mean_temperature_bound_K": 0.036662786865234345,
+      "difference_from_continuous_finite_plate_reference_J": -0.3609577323841222,
+      "difference_from_nominal_J": -2.3174964843856287
+    },
+    {
+      "time_s": 40.0,
+      "temperature_export": "temperature_1600W_4mms_40s_h125.txt",
+      "temperature_sha256": "356dee2cda1f9cfd3e9941cd59844bcff39dfdd2585e66a2fb94e18c69700a5f",
+      "nodes": 92529,
+      "temperature_min_C": 148.68,
+      "temperature_max_C": 283.56,
+      "time_check": "Export extrema match archived global result extrema at requested time; header omits time.",
+      "archived_time_min_C": 148.6767,
+      "archived_time_max_C": 283.5642,
+      "unweighted_node_mean_C": 224.34277480573658,
+      "volume_mean_temperature_C": 225.11334456380214,
+      "stored_heat_J": 31997.68175195314,
+      "export_rounding_energy_bound_J": 6.4430551757812475,
+      "export_rounding_mean_temperature_bound_K": 0.041301635742187474,
+      "difference_from_continuous_finite_plate_reference_J": -0.36170929485888337,
+      "difference_from_nominal_J": -2.31824804686039
+    }
+  ],
+  "stored_heat_change_20_to_40s_J": -0.0007515624747611582,
+  "relative_stored_heat_change_percent": -2.348802838076112e-06,
+  "export_rounding_bound_for_change_J": 12.162449926757805,
+  "change_within_export_rounding_bound": true,
+  "limitations": [
+    "Temperature export lacks time metadata: requested times cross-checked by matching extrema against archived time history.",
+    "Rounding bounds assume nearest rounding to the last printed decimal digit; not bounds on solver discretization error.",
+    "Finite-plate reference integrates the continuous Gaussian; actual TABLE load interpolation/time integration can differ.",
+    "Post-stop energy agreement at these two times does not prove local temperature accuracy or full-field convergence.",
+    "Constant properties, no latent heat, and insulated model; no experimental welding-quality validation."
+  ],
+  "method_sources": [
+    "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID279.html",
+    "https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/ans_thry/thy_shp8.html"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "scope": "Files included in the public copy. SHA-256 values refer to the public bytes.",
+  "files": [
+    {
+      "path": "validation/probe_1600W_2mms_40s_h125_tableS0p625.txt",
+      "bytes": 31850,
+      "sha256": "3db05963a865bd02bc0ee3370844e058255b5cba9e92ebf87ab7e1902dab6117",
+      "preparation": "byte-identical to local archive"
+    },
+    {
+      "path": "validation/probe_1600W_4mms_40s_h125_two_steps.txt",
+      "bytes": 31997,
+      "sha256": "1426daa71021d54bfc151efdab318a2a9dfeb8f1c53fea03ae24ff90893a6383",
+      "preparation": "byte-identical to local archive"
+    },
+    {
+      "path": "validation/temperature_1600W_4mms_20s_h125.txt",
+      "bytes": 4023267,
+      "sha256": "e1fe3817147a7dc2edb27771299587c53203279ed1b13ce81ba61b82e2d67456",
+      "preparation": "byte-identical to local archive"
+    },
+    {
+      "path": "validation/temperature_1600W_4mms_40s_h125.txt",
+      "bytes": 4023382,
+      "sha256": "356dee2cda1f9cfd3e9941cd59844bcff39dfdd2585e66a2fb94e18c69700a5f",
+      "preparation": "byte-identical to local archive"
+    },
+    {
+      "path": "validation/moving_gaussian_40s_1600W_h125_tableS0p625_solver_input.dat",
+      "bytes": 10489910,
+      "sha256": "4cd790d637d8ee29f9e11867cc3cc2800b55a3e64a16b63f09ca09c972c7cd17",
+      "preparation": "local path metadata removed"
+    },
+    {
+      "path": "validation/moving_gaussian_40s_1600W_h125_tableS0p625_probe_CAERep.xml",
+      "bytes": 16008,
+      "sha256": "9fc2c6904b0e22f43c0e0d78c6353a90b4fba02dc27354fe4d6596f13ea78111",
+      "preparation": "local path metadata removed"
+    },
+    {
+      "path": "validation/moving_1600W_4mms_two_steps_2026-11-05_solver_input.dat",
+      "bytes": 10491158,
+      "sha256": "b9a70dfd962deab5f2f98370141c03e6cf52cee84adee0d53cf08265d3ddd8e8",
+      "preparation": "local path metadata removed"
+    },
+    {
+      "path": "validation/moving_1600W_4mms_two_steps_2026-11-05_CAERep.xml",
+      "bytes": 19719,
+      "sha256": "c57ec0cbb90767e200ba0d9ad083c3474857e38633c6e988c89e35ac7c598ea2",
+      "preparation": "local path metadata removed"
+    },
+    {
+      "path": "validation/moving_1600W_4mms_two_steps_2026-11-05_file.nlh",
+      "bytes": 83753,
+      "sha256": "70f933408faad8293a448b5ab18bd444a662d3a31a40cd7eff8903eb575254e7",
+      "preparation": "byte-identical to local archive"
+    }
+  ]
+}
